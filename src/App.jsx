@@ -1,3 +1,5 @@
+import Banner from "./Banner"
+import Navbar from "./Navbar"
 
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
 
   return (
     <>
-    
+    <Navbar />
+    <Banner />
     </>
   )
 }
