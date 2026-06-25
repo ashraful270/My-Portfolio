@@ -4,10 +4,10 @@ import logoImg from './assets/images/port-logo.png'
 
 const Navbar = () => {
   return (
-    <nav>
-      <section className='bg-[#222222]'>
+    <nav className="sticky top-0 z-50">
+      <section className='bg-[#222222]/80 backdrop-blur-md'>
         <Container>
-          <div className='flex items-center gap-64 py-7.75'>
+          <div className='flex items-center gap-64 py-6'>
               <h2 className='text-white font-poppins text-[35px] font-bold'>Ashraful</h2>
             <div>
               <ul className='flex items-center text-white gap-17.75 font-poppins text-[15px] font-semibold'>
