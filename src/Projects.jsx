@@ -8,7 +8,7 @@ const Projects = () => {
       <Container>
         <div>
           <div>
-            <h3 className='bg-linear-to-r from-[#FF8660] to-[#D5491D] bg-clip-text text-transparent text-center font-poppins font-extrabold leading-[35.7px] text-[35px] uppercase mb-6.75'>Projects</h3>
+            <h3 className='bg-linear-to-r from-[#FF8660] to-[#D5491D] bg-clip-text text-transparent text-center font-poppins font-extrabold leading-[35.7px] text-[35px] uppercase mb-8'>Projects</h3>
           </div>
             <div className='grid grid-cols-4 gap-y-8.5 gap-x-8.5'>
             <a className='group' href="https://saiful-global.github.io/CoreWave/">

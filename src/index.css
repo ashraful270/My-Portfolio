@@ -3,3 +3,39 @@
 @theme{
    --font-poppins: "poppins", sans-serif;
 }
+
+
+/* Floating Animation */
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delay {
+  animation: float 3s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+
+.animate-float:hover {
+  transform: scale(1.05);
+  transition: .3s;
+}
+
+.animate-float-delay:hover {
+  transform: scale(1.05);
+  transition: .3s;
+}
